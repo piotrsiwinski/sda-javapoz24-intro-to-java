@@ -17,7 +17,6 @@ public class KalkulatorRatalny {
 
     double miesiecznaRata = 0;
     if ((cena > 100 && cena < 10_000) && (liczbaRat >= 6 && liczbaRat <= 48)) {
-      System.out.println("Obliczamy raty...");
       if (liczbaRat <= 12) {
         miesiecznaRata = 1.025 * cena / liczbaRat;
       } else if (liczbaRat <= 24) {
