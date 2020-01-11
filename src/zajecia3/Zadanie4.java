@@ -1,7 +1,6 @@
 package zajecia3;
 
 import java.util.Scanner;
-
 /*
   Napisać program zliczający długość łańcucha znakowego.
    - Z białymi znakami
@@ -37,5 +36,9 @@ public class Zadanie4 {
     }
     System.out.println("Długość tekstu (ze spacjami) to: " + text.length());
     System.out.println("Długość tekstu bez spacji to: " + licznik);
+
+    // wyswietl napis zapisany małymi i duzymi literami
+    System.out.println("Tekst małymi literami to: " + text.toLowerCase());
+    System.out.println("Tekst dużymi literami to: " + text.toUpperCase());
   }
 }
