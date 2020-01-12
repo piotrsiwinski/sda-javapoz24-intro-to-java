@@ -7,8 +7,8 @@ public class Zadanie3 {
     int[][] macierz = new int[3][5];
 
 
-    System.out.println(macierz.length); // zwraca liczbę wierszy
-    System.out.println(macierz[0].length); // zwraca liczbę kolumn
+    System.out.println("Liczba wierszy: " + macierz.length); // zwraca liczbę wierszy
+    System.out.println("Liczba kolumn: " + macierz[0].length); // zwraca liczbę kolumn
 
     Random r = new Random();
     // wypełnianie macierzy wartosciami losowymi
@@ -19,7 +19,7 @@ public class Zadanie3 {
     }
 
     // wyświetlanie macierzy:
-    int[] maxWWierszach = new int[macierz.length];
+
 
     for (int i = 0; i < macierz.length; i++) {
       for (int j = 0; j < macierz[0].length; j++) {
@@ -28,6 +28,28 @@ public class Zadanie3 {
       // po wypisaniu całego wiersza przejdź do nowej linii
       System.out.println();
     }
+
+    // szukanie Maximum w wierszach
+    int[] maxWWierszach = new int[macierz.length];
+    for (int i = 0; i < macierz.length; i++) {
+      int max = macierz[i][0];
+      for (int j = 0; j < macierz[0].length; j++) {
+        // w petli wewnetrzenej przechodzimy cały wiersz, tutaj szukamy max
+        if (max < macierz[i][j]) {
+          max = macierz[i][j];
+        }
+      }
+      // po przejsciu calego wiersza znalezlismy maxa, wiec wpisujemy go do tablicy
+      maxWWierszach[i] = max;
+    }
+
+    // wyswietlanie max w wierszach
+    System.out.println("Maksymalne wartości w wierszach: ");
+    for (int wWierszach : maxWWierszach) {
+      System.out.print(wWierszach + ", ");
+    }
+
+
 
   }
 }

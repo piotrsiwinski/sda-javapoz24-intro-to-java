@@ -2,7 +2,8 @@ package zajecia4;
 
 import java.util.Random;
 
-public class Zadanie3Piotrek {
+// zadanie z szukaniem max w wierszach i kolumnach - rozszerzone...
+public class Zadanie3Rozszerzone {
   public static void main(String[] args) {
     int[][] macierz = new int[3][5];
 
