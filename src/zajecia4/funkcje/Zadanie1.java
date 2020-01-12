@@ -21,7 +21,6 @@ public class Zadanie1 {
     }
     return counter;
   }
-  
 
   public static void main(String[] args) {
     System.out.println("Podaj dowolny napis, a ja policzę ilość wystąpień ostatniej litery");
@@ -30,11 +29,8 @@ public class Zadanie1 {
     String napis = scanner.nextLine();
 
     // wywołujemy funkcję
-
     int liczbaWystapien = countLastLetter(napis);
-
     System.out.println("Ostatnia litera w wyrazie wystapila " + liczbaWystapien + " razy");
-
   }
 
 }
