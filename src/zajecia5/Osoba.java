@@ -33,6 +33,44 @@ public class Osoba {
     return "Na imię mam " + this.imie + ", nazywam się " + this.nazwisko + " i mam " + wiek + " lat.";
   }
 
+  public String getImie() {
+    return imie;
+  }
 
+  public void setImie(String imie) {
+    this.imie = imie;
+  }
+
+  public String getNazwisko() {
+    return nazwisko;
+  }
+
+  public void setNazwisko(String nazwisko) {
+    this.nazwisko = nazwisko;
+  }
+
+  public int getWiek() {
+    return wiek;
+  }
+
+  public void setWiek(int wiek) {
+    this.wiek = wiek;
+  }
+
+  public double getWzrost() {
+    return wzrost;
+  }
+
+  public void setWzrost(double wzrost) {
+    this.wzrost = wzrost;
+  }
+
+  public double getWaga() {
+    return waga;
+  }
+
+  public void setWaga(double waga) {
+    this.waga = waga;
+  }
 }
 

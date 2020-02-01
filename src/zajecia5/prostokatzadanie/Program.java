@@ -10,6 +10,14 @@ public class Program {
     int b = sc.nextInt();
 
     Prostokat p1 = new Prostokat(a, b);
+    p1.setBokA(-15);
+
+
+
+
+
+
+
 
     System.out.println("Podaj wymiary prostokata 2");
     a = sc.nextInt();

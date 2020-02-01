@@ -49,5 +49,9 @@ public class WstepDoObiektowProgram {
     System.out.println(student.przedstawSie());
     System.out.println(uczen.przedstawSie());
     System.out.println(pracownik.przedstawSie());
+
+
+    // public vs private
+    student.wiek = -15;
   }
 }
