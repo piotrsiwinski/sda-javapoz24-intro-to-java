@@ -43,5 +43,11 @@ public class WstepDoObiektowProgram {
     System.out.println(pracownik.imie);
     System.out.println(pracownik.nazwisko);
     System.out.println(pracownik.wiek);
+
+
+    // Wywołujemy metodę "przedstaw sie"
+    System.out.println(student.przedstawSie());
+    System.out.println(uczen.przedstawSie());
+    System.out.println(pracownik.przedstawSie());
   }
 }

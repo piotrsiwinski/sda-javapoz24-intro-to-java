@@ -28,6 +28,11 @@ public class Osoba {
     wiek = w;
   }
 
+  // definicja metody do opisu Osoby
+  public String przedstawSie() {
+    return "Na imię mam " + this.imie + ", nazywam się " + this.nazwisko + " i mam " + wiek + " lat.";
+  }
+
 
 }
 
